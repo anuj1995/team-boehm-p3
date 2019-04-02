@@ -3,7 +3,7 @@
 * Lei Xian  
 * Mohammadreza Iman   
 ## Outline  
-We did a NMF(non-negative matrix factorization) cluster algorithm to detect neurons in each sample in the test dataset. Each input sample in our model has thounds of images. The output is the coordinates of neurons. Below are the dimentions for our test samples.  
+We did a NMF(non-negative matrix factorization) cluster algorithm to detect neurons in each sample in the test dataset. Each input sample in our model has thounds of images. The output is a json file contains coordinates of neurons. Below are the dimentions for our test samples.  
   
 (3000, 512, 512)  
 (3000, 512, 512)  
@@ -20,4 +20,8 @@ After trying different parameters, the highest accuracy we got is 2.99994 from N
  
 ## Prerequisites  
 pip install thunder-extraction  
+
+## complie  
+We setup everything in GCP.     
+python3.5 nmf.py -d 'test dataset dir' -o 'output dir'  
 
