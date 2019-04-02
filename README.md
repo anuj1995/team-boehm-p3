@@ -20,7 +20,9 @@ After trying different parameters, the highest accuracy we got is 2.99994 from N
  
 ## Prerequisites
 python 3.5 or higher
-anaconda
+
+Anaconda
+
 pip install thunder-extraction  
 
 ## complie  
