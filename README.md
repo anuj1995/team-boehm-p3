@@ -19,11 +19,7 @@ To evaluate our results we use five methods: 1. Recall, 2. Precision, 3. Combine
 After trying different parameters, the highest accuracy we got is 2.99994 from NMF for overall test dataset.
  
 ## Prerequisites
-python 3.5 or higher
-
-Anaconda
-
-pip install thunder-extraction  
+pip install thunder-extraction.  
 
 ## complie  
 We setup everything in GCP.     
