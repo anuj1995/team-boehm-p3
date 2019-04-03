@@ -1,5 +1,5 @@
 # team-boehm-p3
-## neuro finding 
+## neuron finding 
 ## Member 
 * Anuj Panchmia  
 * Lei Xian  
@@ -35,8 +35,9 @@ After trying different parameters, the highest accuracy we got is 2.99994 from N
 
 
 ## Complie  
-In GCP:    
-  python3.5 nmf.py -d 'test dataset dir' -o 'output dir'  
+In GCP:
+  * python3.5 remove_outlier.py --test 'test dataset dir' --save_path 'output dir'
+  * python3.5 nmf.py -d 'test dataset dir' -o 'output dir'  
   
 ## Built with
 * GCP
@@ -44,6 +45,7 @@ In GCP:
 
 ## Reffernece
 
-Freeman-lab: (https://gist.github.com/freeman-lab/330183fdb0ea7f4103deddc9fae18113)
+* [Freeman-lab](https://gist.github.com/freeman-lab/330183fdb0ea7f4103deddc9fae18113).
+* [Opencv](https://docs.opencv.org)
 
 
