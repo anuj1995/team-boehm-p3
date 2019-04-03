@@ -23,7 +23,7 @@ Below are the dimentions for 9 test dataset.
 To evaluate our results we use five methods: 1. Recall, 2. Precision, 3. Combined (2 ∗ (recall ∗ precision)/(recall + precision)), 4. Inclusion (Number of intersecting pixels divided by the number of total pixels in the ground-truth regions) 5. Exclusion(Number of intersecting pixels divided by the number of total pixels in your regions).   
 After trying different parameters, the highest accuracy we got is 2.99994 from NMF for overall test dataset.
  
-# NMF 
+## NMF 
 1. Use thunder library and import that in your code.
 2. Load the testing dataset.
 3. Create the algorithm with various parameters.
@@ -32,7 +32,7 @@ After trying different parameters, the highest accuracy we got is 2.99994 from N
 6. Save the output in desired json format.
 
 
-## complie  
+## Complie  
 In GCP:    
   python3.5 nmf.py -d 'test dataset dir' -o 'output dir'  
   
@@ -42,6 +42,6 @@ In GCP:
 
 ## Reffernece
 
-freeman-lab: (https://gist.github.com/freeman-lab/330183fdb0ea7f4103deddc9fae18113)
+Freeman-lab: (https://gist.github.com/freeman-lab/330183fdb0ea7f4103deddc9fae18113)
 
 
