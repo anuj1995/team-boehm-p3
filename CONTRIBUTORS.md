@@ -10,6 +10,7 @@
 ## Contributions
 
 * Anuj Panchmia
+  * Setting up and maintaining the shared GCP and VM
   * Removed outliers for each image
   * Readme
   * WIKI
@@ -19,6 +20,7 @@
   * Readme
   * WIKI
 * Mohammadreza Iman
+   * Setting the development environment on VM and arrange the dataset also packages
    * Tuned NMF
    * Ethics 
    * Readme
