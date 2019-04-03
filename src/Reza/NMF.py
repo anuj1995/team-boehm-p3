@@ -1,5 +1,6 @@
 '''
-    NMF model using test dataset to calculate the neuor coordinates and return a json file.
+    NMF model using test dataset to calculate the neuor coordinates and return a json file
+    pip install thunder-extraction
     Reference:
     NMF example for neuron images in thunder: https://gist.github.com/freeman-lab/330183fdb0ea7f4103deddc9fae18113
     How to run: python NMF.py -d '/Users/leixian/Downloads/test/' -o '/Users/leixian/Downloads/'
