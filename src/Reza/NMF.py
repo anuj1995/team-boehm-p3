@@ -21,9 +21,9 @@ def main(arg):
             print('loading')
             data = td.images.fromtif(arg.test + dataset + '/images', ext='tiff')
             print('analyzing')
-            algorithm = NMF(k=5, percentile=99, max_iter=50, overlap=0.1)
-            model = algorithm.fit(data, chunk_size=(50,50), padding=(25,25))
-            merged = model.merge(0.1)
+            algorithm = NMF(k=10, percentile=99, max_iter=30, overlap=0.2)
+            model = algorithm.fit(data, chunk_size=(100,100), padding=(25,25))
+            merged = model.merge(0.2)
             print('found %g regions' % merged.regions.count)
             regions = [{'coordinates': region.coordinates.tolist()} for region in merged.regions]
             result = {'dataset': dataset, 'regions': regions}
